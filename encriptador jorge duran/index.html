@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css"> 
+    <title>Proyecto final encriptador Jorge Duran </title>
+   
+</head>
+<body>
+    <header>
+        <img class="logo_alura" src="./logo_alura.png" alt="logo de alura Latam">
+    </header>
+    <main>
+        <section> 
+            <textarea class="texto_ingresa" cols="30" rows="10" placeholder="¡Ingrese el Texto deseado Aqui!"></textarea>
+            <div>
+                <h6 class="advertencia">¡Solo letras minusculas y sin acentos por favor amig@s!</h6>
+            </div>
+            <div class="botones">
+                  <button class="boton_encriptar" onclick="botonEncriptar()">Encriptar</button>
+                  <button class="boton_desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+              
+        <section>
+            <textarea class="texto_encriptado" cols="21" rows="16" placeholder="¡Ningun Mensaje fue Encontrado!"></textarea>
+              <div>
+                  <button class="boton_copiar" onclick="botonCopiar()">Copiar</button>
+              </div>
+        </section>
+    </main>
+
+    <footer> 
+        <p class="footer">Elaboro Jorge Luis Duran Flores</p> 
+    </footer> 
+    <script src="./script.js"></script>
+</body>
+</html>
